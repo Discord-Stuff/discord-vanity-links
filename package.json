@@ -1,0 +1,31 @@
+{
+  "name": "discord-vanity-links",
+  "version": "1.0.0",
+  "description": "Discord Vanity Links is a website where you can link your server with a vanity URL, without needing to be a Discord Partner, Verified Server or have Level 3 Boosting perks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo No test script found. && exit 1",
+    "debug": "echo Loading debug mode! && node debug.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroongames-git/discord-vanity-links.git"
+  },
+  "keywords": [
+    "Discord",
+    "Vanity",
+    "Boosting",
+    "Invites"
+  ],
+  "author": "HaroonGames",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haroongames-git/discord-vanity-links/issues"
+  },
+  "homepage": "https://github.com/haroongames-git/discord-vanity-links#readme",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.6.1",
+    "quick.db": "^7.1.1"
+  }
+}
